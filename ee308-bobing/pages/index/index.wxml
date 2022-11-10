@@ -1,0 +1,30 @@
+<!--pages/index/index.wxml-->
+<view class="content">
+  <image class='background' src="../../image/background.png"></image>
+  
+  <view bindtap="openRule" class="rule">
+    <image src="/image/rule.png" class="openRule"></image>
+  </view>
+
+  <view class="modalDlg" wx:if="{{showModal}}">
+    <view>
+      <image src="/image/rule1.jpg" class="rule1"></image>
+    </view>
+    <view>
+      <image bindtap="closeRule" src="/image/close.png" class="closeRule"></image>
+    </view>
+  </view>
+
+  <view class="playgame">
+   <view>
+    <image bindtap="single" src="/image/single.png" class="singleplay"></image> 
+   </view>
+   <view bindtap="multiple">
+    <image bindtap="multiple" src="/image/multiple.png" class="multipleplay"></image>
+   </view>
+  </view>
+ 
+  <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+</view>
+
+

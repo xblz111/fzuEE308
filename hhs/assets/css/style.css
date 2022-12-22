@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.row-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.row-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.row-between-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.row-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.p-2 {
+    padding: 2px;
+}
+
+.plr-2 {
+    padding: 1px 3px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.text-white {
+    color: white;
+    font-weight: bold;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+
+
+
+.f14 {
+    font-size: 14px;
+}
+
+
+
+
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+
+
+.f20 {
+    font-size: 20px;
+}
+
+.ml-180 {
+    margin-left: 180px;
+}
+
+.ml-188 {
+    margin-left: 188px;
+}
+
+.ml-250 {
+    margin-left: 250px;
+}
+
+
+.text-999 {
+    color: #999;
+}
+
+
+
+.p-10 {
+    padding: 10px;
+}
+
+
+
+
+
+
+.mt-2 {
+    margin-top: 2px;
+}
+
+.text-ddd {
+    color: #d6d9db;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.cursor:hover {
+    color: #00a1d6 !important;
+}
+.bg-primary{
+    background: #498390;
+}
+.text-primary{
+    color: #498390;
+}
+.searchInput{
+    border: 2px solid #498390;
+    background-color: #c7e1e7;
+    height: 45px;
+    width: 300px;
+}
